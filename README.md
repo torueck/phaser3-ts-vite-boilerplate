@@ -11,6 +11,16 @@ The boilerplate includes
 
 It uses [husky](https://github.com/typicode/husky) to lint staged files (with help of [lint-staged](https://github.com/okonet/lint-staged)) before commit and lint the commit message to adhere to [conventional commits](https://www.conventionalcommits.org).
 
+## Use the Boilerplate
+
+You can simply clone the repo. However, another great option is to use [degit](https://github.com/Rich-Harris/degit), a tool that makes scaffolding easy. I use the [community drriven fork](https://github.com/tiged/tiged).
+
+After installing degit (or tigit) globally you can simply create a clone of this boilerplate with:
+
+```sh
+degit https://github.com/torueck/phaser3-ts-vite-boilerplate my-project-name
+```
+
 ## Available Commands
 
 | Command           | Description                                                     |
