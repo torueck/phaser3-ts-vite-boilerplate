@@ -2,7 +2,14 @@
 
 This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeScript](https://www.typescriptlang.org/), [Rollup](https://rollupjs.org) with ⚡️ lightning fast HMR through [Vite](https://vitejs.dev/).
 
-This boilerplate is an extension of <https://github.com/geocine/phaser3-rollup-typescript>.
+> This boilerplate is an extension of <https://github.com/geocine/phaser3-rollup-typescript>.
+
+The boilerplate includes
+
+- [ESLint](https://eslint.org/) for linting
+- [Prettier](https://github.com/prettier/prettier) for auto-formatting.
+
+It uses [husky](https://github.com/typicode/husky) to lint staged files (with help of [lint-staged](https://github.com/okonet/lint-staged)) before commit and lint the commit message to adhere to [conventional commits](https://www.conventionalcommits.org).
 
 ## Available Commands
 
